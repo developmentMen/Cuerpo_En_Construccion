@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+	<title>{{ titulo }}</title>
+	<link rel="shortcut icon" href="{{ url_for('static', filename='img/icono.png') }}" >
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+	<!-- Image and text -->
+	<nav class="navbar">
+		<a class="navbar-brand mb-0 h1" href="/">
+		<img src="/static/img/icono.png" width="65" height="45" class="d-inline-block align-top" alt="Hcm gym">
+		<font face = "Verdana" size = "5">Cuerpo en construccion</font>
+		</a>
+
+		<font face = "Times New Roman">
+			<ul class="nav justify-content-end align-top">
+				<li class="nav-item">
+					<a class="nav-link active" href="/" style="color: yellow">Inicio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/preguntas" style="color: yellow">Preguntas</a>
+				</li>
+			</ul>
+		</font>
+	</nav>
+
+	<!-- preguntas -->
+	<div class="dropdown">
+		<button class="btn btn-warning btn-block dropright" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<h5>Que entrenamiento das?</h5>
+		</button>
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			<p>Los entrenamientos son de acuerdo al objetivo de cada persona , se evalúa la meta y se trabaja para alcanzarla. Los entrenamientos van desde cardiovasculares, musculación, resistencia muscular, hipertrofia muscular, aeróbicos localizados hasta entrenamientos correccionales.</p>
+		</div>
+	</div>
+	<div class="dropdown">
+		<button class="btn btn-warning btn-block dropright" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<h5>Que horarios puedo entrenar?</h5>
+		</button>
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			<p>A partir de las 5:30 am hasta las 22 pm el que quede más cómodo para vos.</p>
+		</div>
+	</div>
+	<div class="dropdown">
+		<button class="btn btn-warning btn-block dropright" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<h5>Cuantos dias a la semana puedo entrenar?</h5>
+		</button>
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			<p>Eso depende de la disponibilidad de horarios que tenga cada uno y de su objetivo. El espacio esta disponible 6 dias a la semana de lunes a sábado.</p>
+		</div>
+	</div>
+	<div class="dropdown">
+		<button class="btn btn-warning btn-block dropright" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<h5>Soy muy delgada/o  pero quiero hacer algo para manteneme activa . Hay algo para mi?</h5>
+		</button>
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			<p>Claro que sí!! Te ofrecemos una amplia variedad de ejercicios que no solo te mantendrán activo/a sino que ayudarán a fortalecer tus músculos y corregir tu postura.</p>
+		</div>
+	</div>
+	<div class="dropdown">
+		<button class="btn btn-warning btn-block dropright" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<h5>Tengo problemas fisicos, Puedo entrenar?</h5>
+		</button>
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			<p>
+				(Problemas de rótula/ hernia discal/ problemas de meniscos/ desviación lumbar/ problemas de columna/ problemas de articulaciones.)
+				<hr>
+				Por supuesto que sí puedes entrenar ya que estarás bajo mi supervisión continúa y tendrás ejercicios específicos que cuiden tu postura para no esforzar lo que ya esta sensible.</p>
+		</div>
+	</div>
+	<div class="dropdown">
+		<button class="btn btn-warning btn-block dropright" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<h5>solo necesito asesoramiento para mis comidas porque yo hago ejercicios por mi cuenta. Me podes ayudar?</h5>
+		</button>
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			<p>Claro que puedo ayudarte! No solo con asesoramiento sino tambien junto a nuestra nutricionista armamos una dieta personalizada para que alcances tu maximo objetivo.</p>
+		</div>
+	</div>
+	<div class="dropdown">
+		<button class="btn btn-warning btn-block dropright" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<h5>Que protocolos se cumplen con el tema de covid 19?</h5>
+		</button>
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			<p>Antes de comenzar la actividad diaria se desinfectan todos los instrumentos de trabajo con alcohol.. lo mismo que puertas, piso y todo el lugar. Al ingreso cada alumno es rociado completamente con el mismo inclusive zapatillas y planta de ellas.</p>
+		</div>
+	</div>
+	<div class="dropdown">
+		<button class="btn btn-warning btn-block dropright" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<h5>En que lugar te especializaste?</h5>
+		</button>
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			<p>CEAF mar del plata.  Egresada año 2000 con 5 carreras cursadas.</p>
+		</div>
+	</div>
+	<div class="dropdown">
+		<button class="btn btn-warning btn-block dropright" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<h5>Los entrenamientos son presenciales o virtuales?</h5>
+		</button>
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			<p>Todos los entrenamientos son presenciales porque no solo me dedico a enseñar los ejercicios sino también a corregir posturas y ayudarlos. Eso no se puede lograr de manera virtual.</p>
+		</div>
+	</div>
+	<div class="dropdown">
+		<button class="btn btn-warning btn-block dropright" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<h5>El lugar en que zona de mar del plata esta?</h5>
+		</button>
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			<p>Zona centro. Lugar muy accesible para todos.</p>
+		</div>
+	</div>
+	<div class="dropdown">
+		<button class="btn btn-warning btn-block dropright" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<h5>Los entrenamientos son presenciales o virtuales?</h5>
+		</button>
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			<p>Todos los entrenamientos son presenciales porque no solo me dedico a enseñar los ejercicios sino también a corregir posturas y ayudarlos. Eso no se puede lograr de manera virtual.</p>
+		</div>
+	</div>
+	<div class="dropdown">
+		<button class="btn btn-warning btn-block dropright" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<h5>De cuanto tiempo diario es el entrenamiento?</h5>
+		</button>
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			<p>Los turnos son de 1 hora.</p>
+		</div>
+	</div>
+	<div class="dropdown">
+		<button class="btn btn-warning btn-block dropright" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<h5>Que cantidad de personas hay en cada turno?</h5>
+		</button>
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			<p>Un maximo de 4.</p>
+		</div>
+	</div>
+	<div class="dropdown">
+		<button class="btn btn-warning btn-block dropright" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<h5>Tengo sobrepeso y quiero bajar 30 kilos. En cuanto tiempo los podre bajar?</h5>
+		</button>
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			<p>Con una dieta equilibrada y mi entrenamiento los vas a bajar eso te lo puedo asegurar.  En cuanto al tiempo de tu descenso de peso no te puedo asegurar con exactitud ya que todos los organismos son diferentes, cada uno de nosotros somos únicos e irrepetibles y todos los cuerpos tienen su tiempo algunos mas rápidos y otros no tanto pero si eres una persona decidida vas a lograr tu meta y aca estaré yo para ayudarte.</p>
+		</div>
+	</div>
+</body>
+</html>
